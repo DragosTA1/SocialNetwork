@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab7_map_2.Controller.UserController">
+   <children>
+      <SplitPane dividerPositions="0.35150375939849626" layoutX="104.0" layoutY="34.0" prefHeight="500.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.6280241935483871" layoutX="198.0" layoutY="149.0" orientation="VERTICAL" prefHeight="498.0" prefWidth="514.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <TitledPane alignment="CENTER">
+                                 <content>
+                                    <TableView prefHeight="308.0" prefWidth="512.0">
+                                      <columns>
+                                        <TableColumn prefWidth="75.0" text="C1" />
+                                        <TableColumn prefWidth="75.0" text="C2" />
+                                      </columns>
+                                    </TableView>
+                                 </content>
+                              </TitledPane>
+                           </children></AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="169.0" prefWidth="512.0">
+                           <children>
+                              <ButtonBar cache="true" nodeOrientation="LEFT_TO_RIGHT">
+                                 <buttons>
+                                    <Button mnemonicParsing="false" text="Button" />
+                                    <Button mnemonicParsing="false" text="Button" />
+                                    <Button minWidth="57.0" mnemonicParsing="false" prefHeight="26.0" text="Button" />
+                                 </buttons>
+                              </ButtonBar>
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

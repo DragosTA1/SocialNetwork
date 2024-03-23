@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab7_map_2.Controller.SocialNetworkController">
+   <Button alignment="CENTER" layoutX="668.0" layoutY="413.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="40.0" prefWidth="103.0" text="Login" textAlignment="CENTER" textFill="#0f0f0f" textOverrun="LEADING_WORD_ELLIPSIS">
+      <font>
+         <Font name="Arial Narrow Bold" size="13.0" />
+      </font>
+   </Button>
+   <Button layoutX="668.0" layoutY="466.0" mnemonicParsing="false" onAction="#handleSignIN" prefHeight="40.0" prefWidth="103.0" text="Sign in" textFill="#0f0f0f" textOverrun="LEADING_WORD_ELLIPSIS">
+      <font>
+         <Font name="Arial Narrow Bold" size="13.0" />
+      </font>
+   </Button>
+   <Button layoutX="668.0" layoutY="523.0" mnemonicParsing="false" onAction="#handleAdminLogin" prefHeight="40.0" prefWidth="103.0" text="Login as Admin" textFill="#0f0f0f" textOverrun="LEADING_WORD_ELLIPSIS">
+      <font>
+         <Font name="Arial Narrow Bold" size="13.0" />
+      </font>
+   </Button>
+</AnchorPane>
